@@ -1,0 +1,54 @@
+
+header{
+    background-color: rgba(60,60,60,255);
+}
+
+header h1{
+    font-family: "Pacifico", cursive;
+}
+
+.section-title{
+    font-family: "Pacifico", cursive;
+}
+
+.section-title,
+.section-title:hover{
+    color: #1d67f3;
+}
+
+span{
+    color: #8ca4b7;
+}
+
+#geral{
+    padding: 100px;
+}
+
+.navbar-nav li a{
+    color: #1d67f3;
+}
+
+#requisitos{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.social-links{
+    list-style: none;
+    display: flex;
+}
+
+#fale-conosco{
+    background-color: rgba(60,60,60,255);
+}
+
+form label{
+    color: #1d67f3;
+}
+
+@media only screen and (max-width: 800px) {
+    .row .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
